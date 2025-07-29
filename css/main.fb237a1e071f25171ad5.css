@@ -365,7 +365,9 @@ body.light-theme {
   text-decoration: none;
   transition: all 0.3s;
 }
-.button:active,
+.button:active,.btn-was {
+
+}
 .button:focus,
 .button:hover {
   background-color: var(--light-color);
@@ -402,7 +404,11 @@ body.light-theme {
     border-color: var(--light-color);
     color: var(--light-color);
 }
-
+.btn-was {
+    background-color: var(--light-color) !important;
+  border-color: var(--dark-color) !important;
+  color: var(--dark-color)!important ;
+}
 
 .theme-toggle
   input[type="checkbox"]:checked
