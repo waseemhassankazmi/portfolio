@@ -409,7 +409,11 @@ body.light-theme {
   border-color: var(--dark-color) !important;
   color: var(--dark-color)!important ;
 }
-
+.btn-was .stroke-svg path {
+  fill: none;
+  stroke: var(--dark]]-color);
+  transition: stroke 0.3s;
+}
 .theme-toggle
   input[type="checkbox"]:checked
   ~ .theme-toggle__classic
